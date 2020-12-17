@@ -1,0 +1,53 @@
+.App {
+  background: #F2F2F2;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+
+  header {
+    color: #007762;
+    text-align: center;
+    font-weight: 350;
+    font-size: 3.5rem;
+    margin: 4rem;
+  }
+
+  .todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #ffffff;
+    width:40vw;
+    padding: 0 1rem;
+    border-radius: .2rem;
+    margin-top: 0.2rem;
+  }
+
+  .formInput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    color: #615E5E;
+
+    .todoInput {
+      width: 40vw;
+      background: #F2F2F2;
+      margin-top: 1rem;
+      font-size: 1rem;
+      border: none;
+      padding: 0 1rem;
+      outline: none;
+    }
+
+    .border {
+      background: #008A83;
+      width: 40vw;
+      height: .15rem;
+      margin-top: .1rem;
+    }
+  }
+}
