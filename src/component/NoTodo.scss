@@ -1,5 +1,6 @@
-span {
-  width: 40vw;
-  border: 1rem solid #615E5E;
-  margin-bottom: 1rem;
+.noTodo {
+  height: 1rem;
+  padding: 3rem;
+  border: .1rem dashed black;
+  display: none;
 }

@@ -1,8 +1,8 @@
-import './NoTodo';
+import './NoTodo.scss';
 
 function NoTodo() {
   return (
-    <div>
+    <div className="noTodo">
       <span>You have no todo’s left, yay!</span>
     </div>
   )

@@ -13,6 +13,9 @@ const reducer = (state = defaultTodos, action) => {
         },
       ];
       break;
+    case "STRIKE_TODO":
+      return state.forEach((task) => task.id !== action.payload.id);
+      break;
     case "REMOVE_TODO":
       return state.filter((task) => task.id !== action.payload.id);
       break;

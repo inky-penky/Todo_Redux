@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import './App.scss';
 import NoTodo from "./component/NoTodo";
-import { addTodo, removeTodo } from "./store/actions";
+import { addTodo, strikeTodo,removeTodo } from "./store/actions";
 import {generateId} from "./utils"
 
 
